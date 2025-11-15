@@ -1,17 +1,63 @@
-# React + Vite
+# DevPortfolio Pro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**DevPortfolio Pro** is a modern, responsive, and highly customizable portfolio website template built with **React**, **Vite**, **Tailwind CSS**, and **Redux**. It’s designed for software engineers, developers, and tech professionals to showcase their skills, projects, and personal story in a sleek, interactive way.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- **React 18** + **Vite** for fast and optimized development.
+- **Tailwind CSS** for modern styling and responsive layouts.
+- **Redux Toolkit** for state management.
+- **Framer Motion** for smooth animations.
+- **Interactive Background Elements** (floating tech icons, particle system, gradient orbs).
+- **Multiple sections**:
+  - Personal Story
+  - Technical Philosophy
+  - Career Highlights
+  - Personal Interests
+- **Call to Action** sections with interactive buttons.
+- **SEO friendly** with React Helmet.
+- Fully customizable and extendable.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📦 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Gemba-portfolio
+- **Frontend:** React, Vite, Tailwind CSS  
+- **State Management:** Redux Toolkit, Redux  
+- **Routing:** React Router DOM  
+- **Animations:** Framer Motion  
+- **Charts & Visualizations:** Recharts, D3.js  
+- **Forms:** React Hook Form  
+- **Utilities:** Axios, clsx, date-fns, dotenv  
+
+---
+
+## ⚡ Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/devportfolio-pro.git
+cd devportfolio-pro
+npm install
+npm run start
+
+## 🧩 Project Structure
+
+devportfolio-pro/
+├── public/               # Static assets
+├── src/
+│   ├── components/       # Reusable components (Header, Buttons, Icons, etc.)
+│   ├── pages/            # Page components (About, Home, Projects, etc.)
+│   ├── hero-section/     # Hero and interactive background elements
+│   ├── assets/           # Images, icons, and static resources
+│   ├── store/            # Redux store configuration
+│   └── App.jsx           # Main app entry
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── vite.config.js
+
+
